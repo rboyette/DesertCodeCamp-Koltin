@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Desert Code Camp Demo</string>
+    <string name="view_all_cats">View All Cats</string>
+    <string name="browse_through_collection">Browse through our entire cat collection and learn more about your favorite breeds!</string>
+    <string name="view_all_your_favorite_cats_in_one_convenient_location">View all your favorite cats in one, convenient location!</string>
+    <string name="favorites">favorites</string>
+    <string name="use_executors">Use Executors</string>
+    <string name="use_async_task">Use Async Task</string>
+    <string name="use_coroutines">Use Coroutines</string>
+    <string name="home">Home</string>
+    <string name="description">Description</string>
+    <string name="attributes">Attributes</string>
+    <string name="country_of_origin">Country of Origin: %1$s</string>
+    <string name="weight">Weight</string>
+    <string name="average_lifespan">Average Lifespan</string>
+    <string name="main_thread">Main Thread</string>
+    <string name="asynchronous">Asynchronous</string>
+    <string name="coroutines">Coroutines</string>
+    <string name="executors">Executors</string>
+    <string name="weight_pounds">%1$s lbs.</string>
+    <string name="average_lifespan_years">%1$s years</string>
+</resources>

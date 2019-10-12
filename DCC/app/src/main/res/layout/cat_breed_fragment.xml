@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        tools:visibility="visible">
+        <ImageView
+            android:id="@+id/cat_image"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/title"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:fontFamily="@font/roboto_bold"
+            android:textSize="24sp"
+            tools:text="American Shorthair"/>
+
+        <TextView
+            android:id="@+id/country_of_origin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:fontFamily="@font/roboto_italic"
+            tools:text="Country of Origin: United States" />
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:layout_marginBottom="8dp"
+                android:text="@string/description"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/roboto_light"
+                android:textSize="18sp"
+                tools:text="The American Shorthair is known for its longevity, robust health, good looks, sweet personality, and amiability with children, dogs, and other pets"/>
+
+            <TextView
+                android:id="@+id/attributes_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:textSize="20sp"
+                android:text="@string/attributes" />
+
+            <TextView
+                android:id="@+id/attributes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/roboto_light"
+                android:textSize="18sp"
+                tools:text="Active, Curious, Easy Going, Playful, Calm" />
+
+            <TextView
+                android:id="@+id/weight_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:textSize="20sp"
+                android:text="@string/weight"/>
+
+            <TextView
+                android:id="@+id/weight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/roboto_light"
+                android:textSize="18sp"
+                tools:text="4 - 7 kgs" />
+
+            <TextView
+                android:id="@+id/average_lifespan_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/average_lifespan"
+                android:fontFamily="@font/roboto_medium"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/average_lifespan"
+                android:layout_width="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/roboto_light"
+                android:textSize="18sp"
+                tools:text="15 - 17 average life span" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

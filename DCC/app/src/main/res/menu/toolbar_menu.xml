@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeAction"
+        android:checkable="false"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home_icon_silhouette" />
+
+    <item
+        android:id="@+id/executorAction"
+        android:checkable="true"
+        android:title="@string/use_executors" />
+    <item
+        android:id="@+id/asyncTaskAction"
+        android:checkable="true"
+        android:title="@string/use_async_task" />
+    <item
+        android:id="@+id/kotlinCoroutineAction"
+        android:checkable="true"
+        android:title="@string/use_coroutines" />
+</menu>
